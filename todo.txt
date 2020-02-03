@@ -1,0 +1,10 @@
+- Enregistrer le score en BDD
+    - Formulaire sur la page de début
+    - on garde la variable dans la superglobal post
+    - rediriger vers start_post.php dans la fonction stopAll()
+    - dans start_post.php il faut vérifier si le nom est deja pris (si oui update le score personel si il est plus élevé que le score enregistré) ou pas (dans ce cas crer le joeur et enregistré son score)
+    - ensuite rediriger vers index.php
+    - dans index.php il faut mettre une condition sur le formulaire pour rejouer avec une variable GET (cacher le formulaire et afficher un bouton qui start avec 'onclick()') 
+
+- Afficher les résultats des autres joueurs
+- add a laser sfx when shooting
